@@ -1,0 +1,23 @@
+/* Custom Tailwind Overrides */
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+/* Add a subtle shadow for text */
+.text-shadow-lg {
+	text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Parallax effect on the Hero Section */
+.hero-bg {
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Enhanced hover effects */
+.card:hover {
+	transform: scale(1.05);
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+	transition: all 0.3s ease;
+}
